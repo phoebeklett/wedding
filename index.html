@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Our Wedding</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 75px;
+            font-family: 'Times New Roman', serif;
+            background-color: #ffffff; 
+            /* pink: FCDEE0 */ 
+            color: #333;
+        }
+        #container {
+            text-align: left;
+        }
+     
+        #imageContainer {
+            flex: 1;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow-x: scroll;
+        }
+
+        #highQualityImage {
+            width: auto;
+            height: 80vh;
+            max-width: 100vw;
+            object-fit: contain;
+            image-rendering: optimizeQuality;
+        }
+        h1 {
+            text-align: center;
+            font-size: 1.5em;
+            color: #000;
+        }
+        h2 {
+            text-align: center;
+            font-size: 1.2em;
+            color: #000;
+        }
+        p {
+            text-align: center;
+            font-size: 1em;
+            margin-bottom: 20px;
+        }
+        a {
+            text-decoration: underline; 
+            color: #000;
+            font-weight: bold;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                margin: 30px;
+            }
+            h1 {
+                font-size: 1.5em;
+                margin-right: 10px;
+            }
+            #highQualityImage {
+                height: 80vh;
+                max-width: 100vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>William Zeng & Phoebe Klett</h1>
+        <p>We are thrilled to announce our wedding in NYC on August 1st and 2nd, 2025.</p>
+
+    <div id="imageContainer">
+        <img id="highQualityImage" src="assets/save-the-date.png" alt="std">
+    </div>
+
+    <div id="container">
+        <h2>
+            <a href="https://unitaryfund.typeform.com/addresses">Please enter your contact information</a>
+        </h2> 
+        <p>More details to come soon!</p>
+    </div>
+
+</body>
+</html>
