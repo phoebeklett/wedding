@@ -19,7 +19,7 @@
             margin-right: 150px;
             text-align: center;
         }
-
+     
         #imageContainer {
             flex: 1;
             width: 100%;
@@ -27,14 +27,11 @@
             justify-content: center;
             align-items: center;
             overflow-x: scroll;
-            margin-top: 10px;
         }
 
         #highQualityImage {
             width: auto;
-            display: block;
-            margin: 0 auto;
-            height: 80vh;
+            height: 100vh;
             max-width: 100vw;
             object-fit: contain;
             image-rendering: optimizeQuality;
@@ -49,6 +46,11 @@
             font-size: 1.2em;
             color: #000;
         }
+        h3 {
+            text-align: center;
+            font-size: 1.0em;
+            color: #000;
+        }
         p {
             text-align: center;
             font-size: 1em;
@@ -56,10 +58,9 @@
         }
         a {
             text-decoration: underline; 
-            color: #000;
             font-weight: normal;
+            color: #000;
         }
-
         @media (max-width: 600px) {
             body {
                 margin: 30px;
@@ -82,20 +83,17 @@
 
 <body>
     <div id="container">
-        <h1>William Zeng & Phoebe Klett</h1>
-        <p>We are thrilled to announce our wedding in NYC on August 1st and 2nd, 2025.</p>
+        <div id="container">
+            <h3>Other Details</h3>
+            <p><strong>What is a Mathematical Ceremony? </strong> Phoebe and Will have organized a series of events this year that celebrate the practice of mathematics as an art and ritual. You can see the programs for previous services
+                <a href="https://www.practiceofproof.com/">here</a>. No mathematical background is expected, you won't want to miss it!</p>
+            </p> 
+            <p><strong>Kids:</strong> Kids are welcome at all events. We will provide a well-trusted babysitter for children under 2yo during the Liturgical Ceremony. Please send us a note if you'd like her to watch your little one.</p>
+            <p><strong>Dress code:</strong> Dress code for the Mathematical Ceremony is black and white; all levels of formality are welcome. Dress code for the Liturgical Ceremony and following reception is black tie. Rowing blazers (or national dress) are encouraged.</p>
+            <p><strong>RSVP'ing:</strong> You will a receive an invitation in the mail in May. Please RSVP by June 1st.</p>
+            We will continue to update this page as we approach the wedding.
 
-        &nbsp;&nbsp;
-        <a href="https://unitaryfund.typeform.com/to/ByppCzD1">RSVP</a> &nbsp;&nbsp;&nbsp;
-        <a href="program.html">Wedding Program</a> &nbsp;&nbsp;&nbsp;
-        <a href="detail.html">Detail</a> &nbsp;&nbsp;&nbsp;
-        <!-- <a href="https://unitaryfund.typeform.com/addresses">Please enter your contact information</a> -->
+        </div>
     </div>
-    
-    <div id="imageContainer">
-        <img id="highQualityImage" src="assets/save-the-date-compressed.png" alt="std">
-    </div>
-
-    
 </body>
 </html>
